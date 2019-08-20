@@ -1,0 +1,502 @@
+dn: dc=mycluster,dc=icp
+dc: mycluster
+objectClass: top
+objectClass: domain
+
+dn: ou=people,dc=mycluster,dc=icp
+objectClass: organizationalUnit
+description: All people in organization
+ou: people
+
+dn: ou=groups,dc=mycluster,dc=icp
+objectClass: organizationalUnit
+objectClass: top
+ou: groups
+
+
+
+dn: uid=auser1,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser1
+sn: auser1
+userPassword: auser1add
+
+
+dn: cn=clusteradmin,ou=groups,dc=mycluster,dc=icp
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: clusteradmin
+
+            
+uniquemember: uid=auser1,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser2,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser2
+sn: auser2
+userPassword: auser2add
+
+            
+uniquemember: uid=auser2,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser3,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser3
+sn: auser3
+userPassword: auser3add
+
+            
+uniquemember: uid=auser3,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser4,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser4
+sn: auser4
+userPassword: auser4add
+
+            
+uniquemember: uid=auser4,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser5,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser5
+sn: auser5
+userPassword: auser5add
+
+            
+uniquemember: uid=auser5,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser6,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser6
+sn: auser6
+userPassword: auser6add
+
+            
+uniquemember: uid=auser6,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser7,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser7
+sn: auser7
+userPassword: auser7add
+
+            
+uniquemember: uid=auser7,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser8,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser8
+sn: auser8
+userPassword: auser8add
+
+            
+uniquemember: uid=auser8,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser9,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser9
+sn: auser9
+userPassword: auser9add
+
+            
+uniquemember: uid=auser9,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser10,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser10
+sn: auser10
+userPassword: auser10add
+
+            
+uniquemember: uid=auser10,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser11,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser11
+sn: auser11
+userPassword: auser11add
+
+            
+uniquemember: uid=auser11,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser12,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser12
+sn: auser12
+userPassword: auser12add
+
+            
+uniquemember: uid=auser12,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser13,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser13
+sn: auser13
+userPassword: auser13add
+
+            
+uniquemember: uid=auser13,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser14,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser14
+sn: auser14
+userPassword: auser14add
+
+            
+uniquemember: uid=auser14,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser15,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser15
+sn: auser15
+userPassword: auser15add
+
+            
+uniquemember: uid=auser15,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser16,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser16
+sn: auser16
+userPassword: auser16add
+
+            
+uniquemember: uid=auser16,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser17,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser17
+sn: auser17
+userPassword: auser17add
+
+            
+uniquemember: uid=auser17,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser18,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser18
+sn: auser18
+userPassword: auser18add
+
+            
+uniquemember: uid=auser18,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser19,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser19
+sn: auser19
+userPassword: auser19add
+
+            
+uniquemember: uid=auser19,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser20,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser20
+sn: auser20
+userPassword: auser20add
+
+            
+uniquemember: uid=auser20,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser21,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser21
+sn: auser21
+userPassword: auser21add
+
+            
+uniquemember: uid=auser21,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser22,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser22
+sn: auser22
+userPassword: auser22add
+
+            
+uniquemember: uid=auser22,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser23,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser23
+sn: auser23
+userPassword: auser23add
+
+            
+uniquemember: uid=auser23,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser24,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser24
+sn: auser24
+userPassword: auser24add
+
+            
+uniquemember: uid=auser24,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser25,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser25
+sn: auser25
+userPassword: auser25add
+
+            
+uniquemember: uid=auser25,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser26,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser26
+sn: auser26
+userPassword: auser26add
+
+            
+uniquemember: uid=auser26,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser27,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser27
+sn: auser27
+userPassword: auser27add
+
+            
+uniquemember: uid=auser27,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser28,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser28
+sn: auser28
+userPassword: auser28add
+
+            
+uniquemember: uid=auser28,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser29,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser29
+sn: auser29
+userPassword: auser29add
+
+            
+uniquemember: uid=auser29,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser30,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser30
+sn: auser30
+userPassword: auser30add
+
+            
+uniquemember: uid=auser30,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser31,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser31
+sn: auser31
+userPassword: auser31add
+
+            
+uniquemember: uid=auser31,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser32,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser32
+sn: auser32
+userPassword: auser32add
+
+            
+uniquemember: uid=auser32,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser33,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser33
+sn: auser33
+userPassword: auser33add
+
+            
+uniquemember: uid=auser33,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser34,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser34
+sn: auser34
+userPassword: auser34add
+
+            
+uniquemember: uid=auser34,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser35,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser35
+sn: auser35
+userPassword: auser35add
+
+            
+uniquemember: uid=auser35,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser36,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser36
+sn: auser36
+userPassword: auser36add
+
+            
+uniquemember: uid=auser36,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser37,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser37
+sn: auser37
+userPassword: auser37add
+
+            
+uniquemember: uid=auser37,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser38,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser38
+sn: auser38
+userPassword: auser38add
+
+            
+uniquemember: uid=auser38,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser39,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser39
+sn: auser39
+userPassword: auser39add
+
+            
+uniquemember: uid=auser39,ou=people,dc=mycluster,dc=icp
+
+dn: uid=auser40,ou=people,dc=mycluster,dc=icp
+objectClass:inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: auser40
+sn: auser40
+userPassword: auser40add
+
+            
+uniquemember: uid=auser40,ou=people,dc=mycluster,dc=icp
