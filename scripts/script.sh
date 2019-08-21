@@ -1,11 +1,16 @@
 #!/bin/bash
 
+# ldap use next line to jusitfy the content
+# Must seperate content strictly by blank line
+
 if [ ! -f base.ldif ]; then
    for var in {1..40}
    do
     # Generate the file
 
       ## Do only once
+      # If you already have apply this file before, you should remove this section too
+      # Else ldap will return error code
       if [[ "$var" = "1" ]] ; then
       cat >> ./base.ldif <<EOL
 dn: dc=mycluster,dc=icp
@@ -33,6 +38,7 @@ EOL
       echo $name="auser" ## CANNOT HAVE SPACE AFTER THE "=" OPERATOR
 
       ## Print out the ldap user
+       
       cat >> ./base.ldif <<EOL
 
 dn: uid=auser${var},ou=people,dc=mycluster,dc=icp
@@ -43,11 +49,12 @@ objectClass: top
 cn: auser${var}
 sn: auser${var}
 userPassword: auser${var}add
-
 EOL
 
 echo -e "\nGenerating auser"$var+=" successful";
 
+# If you already have apply this file before, you should remove this section too
+      # Else ldap will return error code
       if [[ "$var" = "1" ]] ; then
             cat >> ./base.ldif <<EOL
 
